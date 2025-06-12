@@ -209,7 +209,7 @@
         document.getElementById('date').valueAsDate = new Date();
         
         // Your Google Apps Script Web App URL
-        const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyixYFWwsfPhr_OI8FBWxV1txutNC5AS59QqqDW-MEr49h26HFx3tgJ0nUxED5tvINV/exec';
+        const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxZJh39MomGvYB2oc5BxBuP0o20YtEKo5qxbxXzVrVN1RgDIC3zseUp3fISnllfMuA8/exec';
         
         document.getElementById('diaryForm').addEventListener('submit', async function(e) {
             e.preventDefault();
